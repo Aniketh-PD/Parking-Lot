@@ -6,4 +6,6 @@ public class ParkingLot {
     private String parkingLotId;
     private List<ParkingFloor> floors;
     private ParkingLotStatus parkingLotStatus;
+    private List<Gate> entryGates;
+    private List<Gate> exitGates;
 }

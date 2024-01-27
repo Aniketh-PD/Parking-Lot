@@ -7,4 +7,7 @@ public class Bill {
     private Date exitTime;
 
     private Ticket ticket;
+    private Gate generatedAt;
+    private Operator generatedBy;
+    private PaymentType paymentType;
 }

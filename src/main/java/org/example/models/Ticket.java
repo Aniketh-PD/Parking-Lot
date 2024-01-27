@@ -7,4 +7,7 @@ public class Ticket {
     private Date entryTime;
 
     private Vehicle vehicle;
+    private ParkingSlot parkingSlot;
+    private Operator generatedBy;
+    private Gate generatedAt;
 }
