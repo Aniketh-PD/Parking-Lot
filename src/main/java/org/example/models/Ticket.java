@@ -1,6 +1,12 @@
 package org.example.models;
 
+
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.Date;
+@Getter
+@Setter
 
 public class Ticket {
     private String ticketId;
