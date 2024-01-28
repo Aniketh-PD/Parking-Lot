@@ -3,9 +3,7 @@ package org.example.controllers;
 import org.example.dtos.IssueTicketRequest;
 import org.example.dtos.IssueTicketResponse;
 import org.example.exceptions.GateNotFoundException;
-import org.example.models.Gate;
 import org.example.models.Ticket;
-import org.example.models.Vehicle;
 import org.example.services.TicketService;
 
 public class TicketController {
